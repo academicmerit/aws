@@ -1,2 +1,2 @@
-docker build -t academicmerit/awscli:ec2 .
-docker push academicmerit/awscli:ec2
+docker build -t academicmerit/awscli:$1 .
+docker push academicmerit/awscli:$1
