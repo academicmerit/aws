@@ -1,0 +1,2 @@
+docker build -t academicmerit/awscli:$1 .
+docker push academicmerit/awscli:$1
