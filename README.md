@@ -20,4 +20,4 @@ $ docker push academicmerit/awscli:latest
 ## Note on different tags
 - awscli:ec2 tag is used to run on bastion host and it uses uid 500 for aws user inside docker container
 - awscli:latest or awscli:macos tag is used to run on local dev environmnet and uses uid 1000 for aws user inside docker container
-  - this is necessary for mounted volume to be writeable on MacOS when running `[bin/init](https://github.com/academicmerit/service-fym/blob/dev/bin/init)` redacted db refresh script
+  - this is necessary for mounted volume to be writeable on MacOS when running `[bin/init]`(https://github.com/academicmerit/service-fym/blob/dev/bin/init) redacted db refresh script
